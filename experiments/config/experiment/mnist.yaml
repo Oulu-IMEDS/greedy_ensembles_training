@@ -1,0 +1,37 @@
+experiment_cat: MNIST
+data:
+  num_classes: 10
+  dataset: mnist
+  num_workers: 4
+  batch_size: 256
+  val_amount: 0.1
+  mean:
+    - 0.1307
+    - 0.1307
+    - 0.1307
+  std:
+    - 0.3081
+    - 0.3081
+    - 0.3081
+  augs:
+    train: ~
+    val: ~
+train:
+  num_epochs: 20
+model:
+  name: PreResNet8
+  cls: gde.models.mnist.${model.name}
+  params:
+    num_classes: ${data.num_classes}
+optimizer:
+  cls: torch.optim.SGD
+  params:
+    params: ~
+    lr: 0.1
+    weight_decay: 1e-5
+    momentum: 0.9
+  scheduler:
+    type: annealing
+    lr_scaler: 0.0001
+    t1: 0.5 # annealing will start after 50% of the budget
+    t2: 0.9 # and will continue until 90%. The remaining buget will be spent with 0.01*inital_lr

@@ -1,0 +1,40 @@
+experiment_cat: TwoMoons
+data:
+  num_classes: 2
+  dataset: two_moons
+  dataset_cls: gde.data.dataset.DataFrameDataset
+  num_workers: 4
+  batch_size: 32
+  val_amount: 0.1
+  mean:
+    - 0
+    - 0
+  std:
+    - 1
+    - 1
+  augs:
+    train: ~
+    val: ~
+train:
+  num_epochs: 150
+model:
+  name: ToyModel
+  cls: gde.models.toy.${model.name}
+  params:
+    n_inp: 2
+    n_hidden: 128
+    num_classes: ${data.num_classes}
+optimizer:
+  cls: torch.optim.SGD
+  params:
+    params: ~
+    lr: 0.1
+    weight_decay: 1e-4
+    momentum: 0.9
+  scheduler:
+    type: milestones
+    gamma: 0.5
+    milestones:
+      - 30
+      - 60
+      - 90

@@ -1,0 +1,22 @@
+experiment_cat: cifar${data.num_classes}
+model:
+  name: VGG16BN
+  cls: gde.models.cifar.${model.name}
+  params:
+    num_classes: ${data.num_classes}
+train:
+  num_epochs: 100
+optimizer:
+  cls: torch.optim.SGD
+  params:
+    params: ~
+    nesterov: false
+    momentum: 0.9
+    lr: 0.05
+    weight_decay: 0.0005
+  scheduler:
+    warmup_for: 5
+    type: annealing
+    lr_scaler: 0.001
+    t1: 0.5 # annealing will start after 50% of the budget
+    t2: 0.9 # and will continue until 90%. The remaining buget will be spent with 0.01*inital_lr
