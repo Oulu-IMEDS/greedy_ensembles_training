@@ -67,7 +67,7 @@ LSUN and SVHN datasets were used as out-of-distribution. The following table ill
   </tr>
   <tr>
     <td style="font-weight:bold">Ours</td>
-    <td style="font-weight:bold">0.82</td>
+    <td style="font-weight:bold">**0.82**</td>
     <td style="font-weight:bold">0.90</td>
     <td style="font-weight:bold">0.87</td>
     <td style="font-weight:bold">0.85</td>
