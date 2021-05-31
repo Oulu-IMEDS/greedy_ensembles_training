@@ -29,53 +29,52 @@ LSUN and SVHN datasets were used as out-of-distribution. The following table ill
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-fymr" rowspan="2">Dataset</th>
-    <th class="tg-fymr" rowspan="2">Method</th>
+    <th rowspan="2">Dataset</th>
+    <th rowspan="2">Method</th>
     <th class="tg-7btt" colspan="2">SVHN</th>
     <th class="tg-7btt" colspan="2">LSUN</th>
   </tr>
   <tr>
-    <td class="tg-fymr">AUC</td>
-    <td class="tg-fymr">AP</td>
-    <td class="tg-fymr">AUC</td>
-    <td class="tg-fymr">AP</td>
+    <td >AUC</td>
+    <td >AP</td>
+    <td >AUC</td>
+    <td >AP</td>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky" rowspan="2">CIFAR10</td>
-    <td class="tg-0pky">Deep Ensembles</td>
-    <td class="tg-0pky">0.94</td>
-    <td class="tg-0pky">0.96</td>
-    <td class="tg-0pky">0.93</td>
-    <td class="tg-0pky">0.89</td>
+    <td  rowspan="2">CIFAR10</td>
+    <td >Deep Ensembles</td>
+    <td >0.94</td>
+    <td >0.96</td>
+    <td >0.93</td>
+    <td >0.89</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Ours</td>
-    <td class="tg-fymr">0.95</td>
-    <td class="tg-fymr">0.97</td>
-    <td class="tg-fymr">0.95</td>
-    <td class="tg-fymr">0.94</td>
+    <td >Ours</td>
+    <td style="font-weight:bold">0.95</td>
+    <td style="font-weight:bold">0.97</td>
+    <td style="font-weight:bold">0.95</td>
+    <td style="font-weight:bold">0.94</td>
   </tr>
   <tr>
-    <td class="tg-0pky" rowspan="2">CIFAR100</td>
-    <td class="tg-0pky">Deep Ensembles</td>
-    <td class="tg-0pky">0.79</td>
-    <td class="tg-0pky">0.88</td>
-    <td class="tg-0pky">0.86</td>
-    <td class="tg-0pky">0.81</td>
+    <td  rowspan="2">CIFAR100</td>
+    <td >Deep Ensembles</td>
+    <td >0.79</td>
+    <td >0.88</td>
+    <td >0.86</td>
+    <td >0.81</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Ours</td>
-    <td class="tg-fymr">0.82</td>
-    <td class="tg-fymr">0.90</td>
-    <td class="tg-fymr">0.87</td>
-    <td class="tg-fymr">0.85</td>
+    <td style="font-weight:bold">Ours</td>
+    <td style="font-weight:bold">0.82</td>
+    <td style="font-weight:bold">0.90</td>
+    <td style="font-weight:bold">0.87</td>
+    <td style="font-weight:bold">0.85</td>
   </tr>
 </tbody>
 </table>
-</br>
-</br>
+
 
 ## Reproducing the results: training
 
