@@ -6,7 +6,7 @@ Tiulpin and M. B. Blaschko. (2021)
 We propose a novel principled method to approximate Bayesian posterior in Deep Learning via greedy minimization of a f-divergence in the function space, and derive a theoretically justified diversity term.
 
 <center>
-<img src="https://github.com/MIPT-Oulu/greedy_ensembles_training/blob/main/assets/main_figure.png" width="900"/> 
+<img src="https://github.com/MIPT-Oulu/greedy_ensembles_training/blob/main/assets/main_figure.png" width="800"/> 
 </center>
 
 
