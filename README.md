@@ -4,7 +4,7 @@ This repository is the official implementation of Greedy Bayesian Posterior Appr
 Tiulpin and M. B. Blaschko. (2021)
 
 <center>
-<img src="https://github.com/mipt-oulu/greedy_ensembles_training/blob/master/assets/main_figure.png" width="900"/> 
+<img src="https://github.com/MIPT-Oulu/greedy_ensembles_training/blob/main/assets/main_figure.png" width="900"/> 
 </center>
 
 
