@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name='greedy_deep_ensembles',
     version='0.1',
-    author='Greedy Trainer',
-    author_email='NA',
+    author='Aleksei Tiulpin',
+    author_email='aleksei.tiulpin@aalto.fi',
     packages=find_packages(),
     include_package_data=True,
     license='LICENSE.txt',
