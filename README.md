@@ -1,12 +1,20 @@
 # Greedy Bayesian Posterior Approximation with Deep Ensembles
 
 This repository is the official implementation of Greedy Bayesian Posterior Approximation with Deep Ensembles by A.
-Tiulpin and M. B. Blaschko. (2021)
+Tiulpin and M. B. Blaschko. (2021).
+```
+@article{Tiulpin2021a,
+  title={Greedy Bayesian Posterior Approximation with Deep Ensembles},
+  AUTHOR = {Tiulpin, Aleksei and Blaschko, Matthew B.},
+  YEAR = {2021},
+  journal = {arXiv:2105.14275},
+}
+```
 ## TL;DR
 We propose a novel principled method to approximate Bayesian posterior in Deep Learning via greedy minimization of an f-divergence in the function space, and derive a theoretically justified diversity term.
 
 <center>
-<img src="https://github.com/MIPT-Oulu/greedy_ensembles_training/blob/main/assets/main_figure.png" width="800"/> 
+<img src="assets/main_figure.png" width="800"/> 
 </center>
 
 
@@ -146,3 +154,9 @@ python -u -m gde.eval_results \
 
 One can loop over seeds to get the results over multiple runs.
 
+## Funding
+```
+We acknowledge support from the Research Foundation - Flanders (FWO) through project numbers G0A1319N and S001421N, and funding  from  the  Flemish  Government  under  the  ``Onderzoeksprogramma Artifici\"{e}le Intelligentie (AI) Vlaanderen" programme.
+
+This research was also supported by strategic funds of the University of Oulu, Finland. We thank CSC -- Finnish Center for Science for generous computational resources. We also acknowledge the computational resources provided by the Aalto Science-IT project.
+```
