@@ -1,11 +1,12 @@
 # Greedy Bayesian Posterior Approximation with Deep Ensembles
 
-This repository is the official implementation of Greedy Bayesian Posterior Approximation with Deep Ensembles.
+This repository is the official implementation of Greedy Bayesian Posterior Approximation with Deep Ensembles by A.
+Tiulpin and M. B. Blaschko. (2021)
 ## TL;DR
 We propose a novel principled method to approximate Bayesian posterior in Deep Learning via greedy minimization of an f-divergence in the function space, and derive a theoretically justified diversity term.
 
 <center>
-<img src="assets/main_figure.png" width="800"/> 
+<img src="https://github.com/MIPT-Oulu/greedy_ensembles_training/blob/main/assets/main_figure.png" width="800"/> 
 </center>
 
 
@@ -78,7 +79,8 @@ LSUN and SVHN datasets were used as out-of-distribution. The following table ill
 ## Reproducing the results: training
 
 ### CIFAR
-We ran our main experiments for ensembles of size 11 on 400 Nvidia V100 GPUs. We launched 1 experiment (i.e.
+We ran our main experiments for ensembles of size 11 on 400 Nvidia V100 GPUs 
+(thanks to [Aalto Triton](https://scicomp.aalto.fi/triton/) and [CSC Puhti](https://docs.csc.fi/computing/overview/) clusters). We launched 1 experiment (i.e.
 ensemble) per GPU. One can try to re-run our codes on a single-gpu machine using the script located in the `experiments/replicate.sh`. 
 It is possible to check the performance for some individual setting with a single seed as follows (must be run from `experiments/`):
 
@@ -143,5 +145,4 @@ python -u -m gde.eval_results \
 ```
 
 One can loop over seeds to get the results over multiple runs.
-
 
