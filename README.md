@@ -156,7 +156,10 @@ One can loop over seeds to get the results over multiple runs.
 
 ## Funding
 ```
-We acknowledge support from the Research Foundation - Flanders (FWO) through project numbersG0A1319N and S001421N, and funding from the Flemish Government under the “Onderzoekspro-gramma Artificiële Intelligentie (AI) Vlaanderen" programme.
+We acknowledge support from the Research Foundation - Flanders (FWO) through project numbersG0A1319N and S001421N, 
+KU Leuven Internal Funds via the MACCHINA project, and funding fromthe Flemish Government under the “Onderzoeksprogramma Artificiële Intelligentie (AI) Vlaanderen"programme.
 
-This research was also supported by strategic funds of the University of Oulu, Finland. We thank CSC -- Finnish Center for Science for generous computational resources. We also acknowledge the computational resources provided by the Aalto Science-IT project.
+This research was also supported by strategic funds of the University of Oulu, Finland. 
+We thank CSC -- Finnish Center for Science for generous computational resources. 
+We also acknowledge the computational resources provided by the Aalto Science-IT project.
 ```
