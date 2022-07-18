@@ -1,13 +1,16 @@
 # Greedy Bayesian Posterior Approximation with Deep Ensembles
 
 This repository is the official implementation of [Greedy Bayesian Posterior Approximation with Deep Ensembles](https://arxiv.org/abs/2105.14275) by A.
-Tiulpin and M. B. Blaschko. (2021).
+Tiulpin and M. B. Blaschko. (2022). Published in the Transactions on Machine LEarning Research
 ```
-@article{Tiulpin2021a,
-  title={Greedy Bayesian Posterior Approximation with Deep Ensembles},
-  AUTHOR = {Tiulpin, Aleksei and Blaschko, Matthew B.},
-  YEAR = {2021},
-  journal = {arXiv:2105.14275},
+@article{
+tiulpingreedy,
+title={Greedy Bayesian Posterior Approximation with Deep Ensembles},
+author={Aleksei Tiulpin and Matthew B. Blaschko},
+journal={Transactions on Machine Learning Research},
+year={2022},
+url={https://openreview.net/forum?id=P1DuPJzVTN},
+note={}
 }
 ```
 ## TL;DR
